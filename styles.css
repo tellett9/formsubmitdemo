@@ -1,0 +1,298 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: 400;
+}
+nav {
+  background-color: rgba(0, 4, 40, 1.00);
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+.navbar {
+  overflow: hidden;
+  background-color: rgba(0, 4, 40, 1.00);
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 289;
+}
+.nav-item {
+  font-weight: 600;
+  font-size: 12pt;
+  color: #FFFFFF;
+}
+.nav-link:hover {
+  color: aqua
+}
+.logo {
+  width: 20%;
+  height: 100%;
+}
+header {
+  margin: 0px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../images/equipment/drone-orange_dark.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 48% 42%;
+  height: 600px;
+}
+.parallax {
+  /* The image used */
+  background-image: url(../images/equipment/drone-orange_dark.jpeg);
+  /* Set a specific height */
+  min-height: 600px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main-content {
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 900px;
+  width: 100%;
+  padding-top: 12px;
+  margin-bottom: 50px;
+}
+.container {
+  min-height: 400px;
+  position: relative;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 1em;
+  color: rgba(255, 255, 255, 1.00);
+  font-weight: bold;
+}
+h2 {
+  padding: 20px 10px;
+  width: 320px;
+  background: #002765;
+  color: white;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 80% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0%, 80% 100%, 0% 100%);
+}
+h3 {
+  color: #002765;
+  margin-bottom: 20px;
+  border-bottom: thin solid #D0682B;
+}
+abbr {border-bottom: thin solid #a6a7a9;}
+.center-parent {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 50vh;
+}
+.center-child {
+  width: 50%;
+  height: 50%;
+}
+.icon {
+  margin: 0px 3px 3px opx
+}
+.section-regular {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12 8 12 8;
+}
+.services {
+    padding: 20px 0px;
+    margin: 12px auto;
+    border-bottom: thin solid #A6A7A9;
+}
+
+.services ul {list-style: none;
+padding-left:0px;}
+.industries {margin-left: 0px;padding-left: 0px;}
+.contact {
+  min-height: 300px;
+  padding-bottom: 30px;
+}
+.contact h2 {
+  margin: 20px 0px;
+  background: none;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 12px 8px;
+  border: medium solid #FE6400;
+}
+form {
+  margin: 20px 0px
+}
+.form-row {
+  margin: 20px 0px
+}
+form textarea {
+  padding: 8px 12px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.bg-blue {
+  background-color: #002765;
+  color: #FFFFFF;
+}
+.copyright {
+  color: #A6A7A9;
+  font-weight: lighter;
+  font-size: small;
+}
+.bg-frost {
+  background-image: url(../images/frost-texture_bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*buttons start*/
+.btn-primary-filled {
+  background-color: #EC6E1E;
+  padding: 8px 12px;
+  border: medium solid #EC6E1E;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.btn-primary-filled:hover {
+  background-color: #C04A00;
+  color: #FFFFFF;
+  border: medium solid #C04A00;
+  ;
+  text-decoration: none;
+}
+.btn-primary-filled:active {
+  background-color: #C04A00;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.btn-primary-outline {
+  border: medium solid #EC6E1E;
+  padding: 8px 12px;
+  font-weight: bold;
+  font-size: large;
+  text-decoration: none;
+  color: #54565a;
+}
+.btn-primary-outline:hover {
+  background-color: #C04A00;
+  border: medium solid #C04A00;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.btn-primary-outline:active {
+  background-color: #C04A00;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+/*buttons end*/
+.margin-top-20px {
+  margin-top: 20px;
+}
+.padding-0 {
+  padding: 0px;
+}
+.txt-right {
+  text-align: end;
+}
+.txt-left {
+  text-align: left;
+}
+.txt-center {
+  text-align: center;
+}
+.txt-orange {
+  color: #FF9C5E
+}
+.filled-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/*footer start*/
+footer {
+  margin: auto;
+  background-color: #000529;
+  color: #FFFFFF;
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  min-height: 117px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: #A6A7A9;
+  text-decoration: none;
+}
+footer .logo {
+  width: 100px
+}
+.footer-nav {
+  margin-top: 12px;
+  margin-right: 8px;
+  margin-bottom: 12px;
+  border-bottom: thin solid #a6a7a9;
+}
+.footer-nav ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-nav ul li {
+  display: inline;
+  margin-right: 10px; /* optional, adds some spacing between list items */
+}
+.footer-nav a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.footer-nav a:hover {
+  color: #A6A7A9
+}
+.site-design-credit {
+  text-align: right;
+}
+/*footer end*/
+@media (max-width: 986px) {
+  .site-design-credit {
+    text-align: left;
+    border-top: thin solid #a6a7a9;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .site-design-credit {
+    text-align: left;
+    border-top: thin solid #a6a7a9;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-brand.abs {
+    position: absolute;
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+}
+@media (max-width: 575px) {
+  .contact .btn {
+    margin: 12px 0px
+  }
+}
